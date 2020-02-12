@@ -1,5 +1,5 @@
 {
-  "name": "vue-js-modal",
+  "name": "@twentysix/vue-js-modal",
   "description": "Modal Component for Vue.js",
   "version": "1.3.33",
   "author": "euvl <yev.vlasenko@gmail.com>",
