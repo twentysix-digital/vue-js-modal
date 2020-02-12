@@ -151,6 +151,10 @@ export default {
       validator (value) {
         return value >= 0 && value <= 1
       }
+    },
+    open: {
+      type: Boolean,
+      default: false
     }
   },
   components: {
@@ -158,11 +162,11 @@ export default {
   },
   data () {
     return {
-      visible: false,
+      visible: this.open,
 
       visibility: {
-        modal: false,
-        overlay: false
+        modal: this.open,
+        overlay: this.open
       },
 
       shift: {
